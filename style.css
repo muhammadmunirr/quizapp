@@ -1,0 +1,110 @@
+@font-face {
+	font-family: Rounded;
+	src: url(./Varela_Round/VarelaRound-Regular.ttf);
+}
+
+
+body {
+	/* background-image: url(https://t4.ftcdn.net/jpg/04/39/13/37/240_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg); */
+	/* background-image: url(https://t4.ftcdn.net/jpg/01/21/14/47/240_F_121144748_tH1hwnVSaw8GvJVeOSMqU7YAfBOrCegw.jpg); */
+	background-image: url(./Images/BG\ image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 100%; */
+	height: 98vh;
+	font-family: "Rounded";
+}
+
+.container {
+	margin: auto;
+	width: 60%;
+	text-align: center;
+	padding: 100px;
+}
+
+span {
+	color: #fae906;;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 30px;
+	color: black;
+	font-style: italic;
+}
+
+.quiz {
+	
+	border-radius: 20px;
+	padding: 20px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
+.question {
+	display: none;
+}
+
+.question.active {
+	display: block;
+}
+
+.question h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: rgb(0, 255, 162);
+	font-style: oblique;
+}
+
+.question p {
+	margin-bottom: 30px;
+	color:black;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	color:black;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.submit-btn {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: linear-gradient(90deg, rgba(21, 37, 177, 1) 16%, rgba(122, 135, 11, 1) 47%, rgba(175, 48, 174, 1) 86%);
+	border: 3px solid linear-gradient(90deg, rgba(21, 37, 177, 1) 16%, rgba(122, 135, 11, 1) 47%, rgba(175, 48, 174, 1) 86%);;
+	font-size: 20px;
+	cursor: pointer;
+	width: 100%;
+	padding: 20px;
+	font-weight: 900;
+	border-radius: 50px;
+}
+
+.submit-btn:hover {
+	color: white;
+	/* background-color: rgb(15, 111, 255);
+	border: 2px solid rgb(8, 101, 250); */
+	/* background: rgb(21, 37, 177); */
+	background: linear-gradient(90deg, rgba(21, 37, 177, 1) 16%, rgba(122, 135, 11, 1) 47%, rgba(175, 48, 174, 1) 86%);
+}
+
+.results {
+	display: none;
+	margin-top: 50px;
+}
+
+.results h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.results p {
+	color: white;
+}
